@@ -1,3 +1,3 @@
 # Beautysalon
 
-# Me aprofundando no usa do JavaScrip
+# Me aprofundando no uso do JavaScrip
