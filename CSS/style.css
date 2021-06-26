@@ -528,14 +528,15 @@ footer .social a:hover {
 }
 
 /*========= MEDIA QUERIES =========*/
-/*extra large devices: 1200 >*/
+/* extra large devices: 1200 > */
 @media (min-width: 1200px) {
-  /*reusable classes*/
+  /* reusable classes */
   .container {
     max-width: 1120px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .section {
     padding: 10rem 0;
   }
@@ -552,7 +553,7 @@ footer .social a:hover {
     height: 3.125rem;
   }
 
-  /*navegation*/
+  /* navigation */
   nav .menu {
     opacity: 1;
     visibility: visible;
@@ -578,13 +579,12 @@ footer .social a:hover {
     display: none;
   }
 
-  /*LAYOUT*/
+  /* layout */
   main {
     margin-top: var(--header-height);
   }
 
-  /*HOME*/
-
+  /* home */
   #home .container {
     grid-auto-flow: column;
     justify-content: space-between;
@@ -594,65 +594,66 @@ footer .social a:hover {
   #home .image {
     order: 1;
   }
+
   #home .text {
     order: 0;
     max-width: 24rem;
     text-align: left;
   }
 
-  /*ABOUT*/
+  /* about */
   #about .container {
     margin: 0 auto;
     grid-auto-flow: column;
   }
-}
 
-/*SERVICES*/
-.cards {
-  grid-template-columns: 1fr 1fr 1fr;
-}
+  /* services */
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-.card {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
+  .card {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 
-/*TESTIMONIALS*/
-#testimonials .container {
-  margin-left: auto;
-  margin-right: auto;
-}
+  /* testimonials */
+  #testimonials .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-/*CONTACT*/
-#contact .container {
-  grid-auto-flow: column;
-  align-items: center;
-}
+  /* contact */
+  #contact .container {
+    grid-auto-flow: column;
+    align-items: center;
+  }
 
-#contact .text {
-  max-width: 25rem;
-}
-/*FOOTER*/
-footer.section {
-  padding: 3.75rem 0;
-}
+  #contact .text {
+    max-width: 25rem;
+  }
 
-footer .container {
-  grid-auto-flow: column;
-  align-items: center;
-  justify-content: space-between;
-}
+  /* footer */
+  footer.section {
+    padding: 3.75rem 0;
+  }
 
-footer .logo {
-  font-size: 2.25rem;
-}
+  footer .container {
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-/*large devices: 1023 >*/
-/*largee devices: 992 >*/
+  footer .logo {
+    font-size: 2.25rem;
+  }
+}
+/* large devices: 1023 > */
+/* large devices: 992 > */
 @media (min-width: 992px) {
   :root {
     --title-font-size: 2.25rem;
     --subtitle-font-size: 1.125rem;
   }
 }
-/*medium devices: 767 >*/
+/* medium devices: 767 > */
