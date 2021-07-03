@@ -1,3 +1,3 @@
-# Beautysalon
+# Responsive website Beautysalon
 
-# Me aprofundando no uso do JavaScrip
+# Me aprofundando no uso do JavaScript
